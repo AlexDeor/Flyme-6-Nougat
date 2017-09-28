@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="alwaysUse">Использовать по умолчанию</string>
-    <string name="date_time_set">Установить</string>
+    <string name="app_name">ForceTouch</string>
+    <string name="has_mark_read">Отмечено как прочитанное</string>
+    <string name="has_mark_unread">Отмечено как непрочитанное</string>
+    <string name="pull_to_mark_read">Потяните вниз, чтобы отметить как прочитанное</string>
+    <string name="pull_to_mark_unread">Потяните вниз, чтобы отметить как непрочитанное</string>    
+    <string name="alwaysUse">По умолчанию для этого действия</string>
+    <string name="date_time_set">Настроить</string>
     <string name="mz_date_time_day">д.</string>
     <string name="mz_date_time_hour">ч.</string>
     <string name="mz_date_time_min">м.</string>
@@ -43,7 +48,7 @@
     <string name="mc_last_refresh_hour">ч. назад</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
     <string name="mc_last_refresh_minute">м. назад</string>
-    <string name="mc_last_refresh_second">с .назад</string>
+    <string name="mc_last_refresh_second">с. назад</string>
     <string name="mc_loading_animation_alert">Сохранение изображения</string>
     <string name="mc_loading_view_text">Загрузка</string>
     <string name="mc_minute">м.</string>
@@ -338,10 +343,10 @@
     <string name="bluetooth_profile_headset">Вызовы</string>
     <string name="bluetooth_profile_opp">Передача файлов</string>
     <string name="bluetooth_profile_hid">Устройство ввода</string>
-    <string name="bluetooth_profile_pan">Доступ к интернету</string>
+    <string name="bluetooth_profile_pan">Доступ в интернет</string>
     <string name="bluetooth_profile_pbap">Контакты</string>
     <string name="bluetooth_profile_pbap_summary">Загружать телефонную книгу и список вызовов</string>
-    <string name="bluetooth_profile_pan_nap">Обмен интернет подключениемт</string>
+    <string name="bluetooth_profile_pan_nap">Обмен интернет подключением</string>
     <string name="bluetooth_profile_map">Доступ к сообщениям</string>
     <string name="bluetooth_profile_sap">Доступ к SIM-карте</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Подключено к мультимедийному аудиоустройству</string>
@@ -360,8 +365,8 @@
     <string name="bluetooth_headset_profile_summary_use_for">Использовать для аудиоустройства телефона</string>
     <string name="bluetooth_opp_profile_summary_use_for">Использовать для передачи файлов</string>
     <string name="bluetooth_hid_profile_summary_use_for">Использовать для ввода</string>
-    <string name="bluetooth_pairing_accept">Сопряжение</string>
-    <string name="bluetooth_pairing_accept_all_caps">Подключить</string>
+    <string name="bluetooth_pairing_accept">Подключить</string>
+    <string name="bluetooth_pairing_accept_all_caps">ПОДКЛЮЧИТЬ</string>
     <string name="bluetooth_pairing_decline">Отмена</string>
     <string name="bluetooth_pairing_will_share_phonebook">Подключение обеспечивает доступ к вашим контактам и истории вызовов (при наличии связи).</string>
     <string name="bluetooth_pairing_error_message">Не удалось подключиться к устройству \"%1$s\"</string>
@@ -4414,7 +4419,11 @@
     <string name="game_mode_disable_mback_title">Отключить mBack</string>
     <string name="game_mode_disable_top_slide_title">Отключить жест сверху вниз</string>
     <string name="game_mode_disable_bottom_slide_title">Отключить жест снизу вверх</string>
+    <string name="game_mode_game_keyboard">Игровая клавиатура</string>
     <string name="game_mode_free_mem_title">Ускорить быстродействие телефона при запуске игр</string>
+    <string name="game_mode_barrage_notifications">Перехват уведомлений</string>
+    <string name="game_mode_keyboard_summary">Использовать компактную клавиатуру для ввода текста во время игрового процесса</string>
+    <string name="game_mode_barrage_summary">Показывать уведомления из WeChat и QQ в уменьшенном виде во время игрового процесса</string>
     <string name="hall_switch_title">Smart Cover</string>
     <string name="hall_switch_summary">Запускать особый режим отображения при закрытии чехла-книжки</string>
     <string name="screen_off_display">Функция \"Always-on Display\"</string>
@@ -4802,9 +4811,4 @@
     <string name="mz_timezone_pacific_tongatapu">Остров Тонгатапу</string>
     <string name="mz_timezone_asia_ho_chi_minh">Ханой</string>
     <string name="mz_timezone_europe_kiev">Киев</string>
-    <string name="app_name">ForceTouch</string>
-    <string name="has_mark_read">Отмечено как прочитанное</string>
-    <string name="has_mark_unread">Отмечено как непрочитанное</string>
-    <string name="pull_to_mark_read">Потяните вниз, чтобы отметить как прочитанное</string>
-    <string name="pull_to_mark_unread">Потяните вниз, чтобы отметить как непрочитанное</string>    
 </resources>

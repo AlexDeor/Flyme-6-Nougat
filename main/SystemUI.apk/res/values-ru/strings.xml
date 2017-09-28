@@ -598,7 +598,7 @@
     <string name="status_bar_settings_eyeprotective">Защита глаз</string>
     <string name="status_bar_settings_accelerator">Ускоритель</string>
     <string name="status_bar_settings_screenrecord">Запись экрана</string>
-    <string name="status_bar_settings_airplane">Airplane</string>
+    <string name="status_bar_settings_airplane">В самолёте</string>
     <string name="quick_settings_connecting_label">Подключение…</string>
     <string name="quick_settings_bluetooth_devices_label">Bluetooth: %d</string>
     <string name="qs_tiles_edit_tips_text">Потяните вверх для добавления</string>
@@ -647,7 +647,7 @@
     <string name="fake_notification_tips">Новых уведомлений: %1$d</string>
     <string name="qs_header_date_main_pattern12">%s a</string>
     <string name="qs_header_date_main_pattern24">%s</string>
-    <string name="qs_header_date_local_pattern">cсс, dd MMM</string>
+    <string name="qs_header_date_local_pattern">dd MMM, cccc</string>
     <string name="nxp_memory_clean">Очищено %1$d МБ</string>
     <string name="nxp_memory_clean_nothing">Память очищена</string>
     <string name="notification_reply">Ответить</string>
@@ -665,7 +665,7 @@
     <string name="screenshot_share_lable">Передать</string>
     <string name="screenshot_share_delete_after_share">Удалить после отправки</string>
     <string name="hello_for_vice_screen">Привет!</string>
-    <string name="system_ui_date_pattern">EEE d M</string>
+    <string name="system_ui_date_pattern">cccc d M</string>
     <string name="free_wifi_label">Сертифицировано</string>
     <string name="external_storage_mounted_title">Tap to remove or view</string>
     <string name="external_storage_mounted_ticker">Подключено: %s</string>
@@ -704,7 +704,7 @@
     <string name="usb_charge_hight_temperature">Зарядка приостановлена из-за нагрева устройства. Пожалуйста, проверьте подключение ЗУ к устройству и обратитесь в СЦ в случае необходимости</string>
     <string name="lock_month_day">dMMMM</string>
     <string name="lock_week">d MMMM yyyy (cccc)</string>
-    <string name="mz_date_format">E, d MMMM</string>
+    <string name="mz_date_format">cccc, d MMMM</string>
     <string name="lock_month">MMMM</string>
     <string name="lock_tips_dialing">Набор</string>
     <string name="calling">Выполняется звонок</string>
@@ -863,8 +863,8 @@
     <string name="battery_saver_confirmation_title">Включить режим энергосбережения?</string>
     <string name="battery_saver_confirmation_ok">Включить</string>
     <string name="battery_saver_start_action">Включить режим энергосбережения</string>
+    <string name="status_bar_settings_settings_button">Настройки</string>
     <string name="status_bar_settings_wifi_button">Wi-Fi</string>
-    <string name="status_bar_settings_airplane">В самолёте</string>
     <string name="status_bar_settings_auto_rotation">Автоповорот экрана</string>
     <string name="status_bar_settings_mute_label">Без звука</string>
     <string name="status_bar_settings_auto_brightness_label">АВТО</string>
