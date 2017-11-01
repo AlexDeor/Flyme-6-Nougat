@@ -52,7 +52,7 @@
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>
-        <item>%s Wi-Fi вызовы</item>
+        <item>Вызовы по Wi-Fi (%s)</item>
     </string-array>
     <string-array name="fingerprint_acquired_vendor">
         <item></item>
