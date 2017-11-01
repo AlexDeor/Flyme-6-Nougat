@@ -823,7 +823,7 @@
     <string name="international_roaming_warning">"Вы находитесь в сети международного роуминга. Настрйоки роуминга могут быть изменены или отключены в \"Настройки роуминга\"."</string>
     <string name="domestic_roaming_warning">"Вы находитесь в сети роуминга другого оператора сотовой связи. Настрйоки роуминга могут быть изменены или отключены в \"Настройки роуминга\"."</string>
     <string name="modify_roaming_setting">Настройки роуминга</string>
-    <string name="continue_roaming_setting">Продолжить/string>
+    <string name="continue_roaming_setting">Продолжить</string>
     <string name="roaming_warning_dialog_title">Внимание</string>
     <string name="dump_heap_title">Отправить дамп памяти?</string>
     <string name="dump_heap_text">Процесс \"%1$s\" превысил объем памяти %2$s. При необходимости отправьте созданный дамп кучи разработчику. Обратите внимание, что файл может содержать личные данные, доступные приложению.</string>
