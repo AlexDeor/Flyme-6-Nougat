@@ -196,7 +196,6 @@
     <string name="bugreport_option_interactive_summary">Используйте данную опцию в большинстве случаев. Она позволяет отслеживать процесс отчета, просматривать дополнительную информацию о проблеме и сохранять скриншоты. Могут быть недоступны редко используемые функции пользователя которые требуют длительного анализа.</string>
     <string name="bugreport_option_full_title">Полный отчет</string>
     <string name="bugreport_option_full_summary">Используйте данную опцию для минимально системного вмешательства, когда ваше устройство зависает, работает медленно или вам необходимо отправить все отзывы. Вам не разрешено сохранять дополнительные скриншоты или просматривать дополнительную информацию.</string>
-    <string name="bugreport_status" formatted="false">%s (%s)</string>
     <string name="global_action_toggle_silent_mode">Режим \"Без звука\"</string>
     <string name="global_action_silent_mode_on_status">Отключить</string>
     <string name="global_action_silent_mode_off_status">Включить</string>
@@ -207,7 +206,6 @@
     <string name="global_action_assist">Помощник</string>
     <string name="global_action_voice_assist">Голос. помощник</string>
     <string name="global_action_lockdown">Заблокировать</string>
-    <string name="notification_header_divider_symbol">•</string>
     <string name="notification_hidden_text">Содержимое скрыто</string>
     <string name="notification_hidden_by_policy_text">Содержимое скрыто в соответствии с заданными правилами</string>
     <string name="safeMode">Безопасный режим</string>
@@ -560,8 +558,8 @@
     <string name="lockscreen_missing_sim_instructions">Вставьте SIM-карту</string>
     <string name="lockscreen_missing_sim_instructions_long">SIM-карта отсутствует или не читается. Вставьте SIM-карту.</string>
     <string name="lockscreen_permanent_disabled_sim_message_short">SIM-карта повреждена</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">"Ваша SIM-карта окончательно заблокирована.\u000d
-Чтобы получить новую SIM-карту, обратитесь к оператору мобильной связи"</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">"Ваша SIM-карта окончательно заблокирована.
+ Чтобы получить новую SIM-карту, обратитесь к оператору мобильной связи"</string>
     <string name="lockscreen_transport_prev_description">Кнопка перехода к предыдущему треку</string>
     <string name="lockscreen_transport_next_description">Кнопка перехода к следующему треку</string>
     <string name="lockscreen_transport_pause_description">Кнопка паузы</string>
@@ -575,15 +573,19 @@
     <string name="lockscreen_sim_puk_locked_instructions">См. руководство пользователя или свяжитесь со службой поддержки</string>
     <string name="lockscreen_sim_locked_message">SIM-карта заблокирована</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Разблокировка SIM-карты…</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Вы %d раз(а) неверно указали графический ключ
-Повторите попытку через %d с."</string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы %d раз(а) неверно указали пароль.
-Повторите попытку через %d с."</string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы %d раз(а) неверно указали PIN-код.
-Повторите попытку через %d с."</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Вы %d раз(а) неверно указали графический ключ. После %d неверных попыток для разблокировки телефона потребуется войти в аккаунт Google. 
- Повторите попытку через %d с."</string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Вы %d раз(а) не смогли разблокировать телефон. После %d неверных попыток будут восстановлены заводские настройки, что приведёт к удалению всех пользовательских данных</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">"Вы %1$d раз(а) неверно указали графический ключ
+
+ Повторите попытку через %2$d с."</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">"Вы %1$d раз(а) неверно указали пароль.
+
+ Повторите попытку через %2$d с."</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">"Вы %1$d раз(а) неверно указали PIN-код.
+
+ Повторите попытку через %2$d с."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Вы %1$d раз(а) неверно указали графический ключ. После %2$d неверных попыток для разблокировки телефона потребуется войти в аккаунт Google. 
+
+ Повторите попытку через %3$d с."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Вы %1$d раз(а) не смогли разблокировать телефон. После %2$d неверных попыток будут восстановлены заводские настройки, что приведёт к удалению всех пользовательских данных</string>
     <string name="lockscreen_failed_attempts_now_wiping">Вы %d раз(а) не смогли разблокировать телефон. Будут восстановлены заводские настройки</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Повторите попытку через %d с.</string>
     <string name="lockscreen_forgot_pattern_button_text">Забыли графический ключ?</string>
@@ -778,8 +780,8 @@
 Закрыть?"</string>
     <string name="anr_activity_process">"Приложение \"%1$s\" не отвечает.
 Закрыть?"</string>
-    <string name="anr_application_process">Приложение \"%1$s\" не отвечает. Закрыть?</string>
-    <string name="anr_process">"\"%1$s\" не отвечает.
+    <string name="anr_application_process">"Приложение \"%1$s\" не отвечает. Закрыть?"</string>
+    <string name="anr_process">"Процесс \"%1$s\" не отвечает.
 Закрыть?"</string>
     <string name="force_close">ОК</string>
     <string name="report">Отправить</string>
@@ -816,6 +818,13 @@
     <string name="new_app_description">Остановить старое приложение без сохранения изменений</string>
     <string name="dump_heap_notification">Объем памяти процесса \"%1$s\" превышен</string>
     <string name="dump_heap_notification_detail">Создан дамп памяти. Нажмите для его отправки.</string>
+    <string name="sms_confirm_message">&lt;b>%1$s&lt;/b> хочет отправить сообщение абоненту &lt;b>%2$s&lt;/b>.</string>
+    <string name="sms_remember_undo_instruction">Вы можете изменить это позже в меню Настройки > Приложения > Меню (иконка шестеренки) > Специальный доступ</string>
+    <string name="international_roaming_warning">"Вы находитесь в сети международного роуминга. Настрйоки роуминга могут быть изменены или отключены в \"Настройки роуминга\"."</string>
+    <string name="domestic_roaming_warning">"Вы находитесь в сети роуминга другого оператора сотовой связи. Настрйоки роуминга могут быть изменены или отключены в \"Настройки роуминга\"."</string>
+    <string name="modify_roaming_setting">Настройки роуминга</string>
+    <string name="continue_roaming_setting">Продолжить/string>
+    <string name="roaming_warning_dialog_title">Внимание</string>
     <string name="dump_heap_title">Отправить дамп памяти?</string>
     <string name="dump_heap_text">Процесс \"%1$s\" превысил объем памяти %2$s. При необходимости отправьте созданный дамп кучи разработчику. Обратите внимание, что файл может содержать личные данные, доступные приложению.</string>
     <string name="sendText">Выберите действие для текста</string>
@@ -840,7 +849,6 @@
     <string name="ringtone_unknown">Неизвестный рингтон</string>
     <string name="wifi_available_sign_in">Подключение к Wi-Fi</string>
     <string name="network_available_sign_in">Вход в сеть</string>
-    <string name="network_available_sign_in_detailed">%1$s</string>
     <string name="wifi_no_internet">Данная сеть Wi-Fi не имеет доступа к сети</string>
     <string name="wifi_no_internet_detailed">Нажмите для настройки</string>
     <string name="wifi_watchdog_network_disabled">Не удалось подключиться к сети Wi-Fi</string>
@@ -1185,26 +1193,29 @@
     <string name="kg_login_password_hint">Пароль</string>
     <string name="kg_login_submit_button">Вход</string>
     <string name="kg_login_invalid_input">Неверное имя пользователя или пароль</string>
-    <string name="kg_login_account_recovery_hint">"\"Забыли имя пользователя или пароль?
-Перейдите на страницу \""<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_account_recovery_hint">"Забыли имя пользователя или пароль?
+ Перейдите на страницу "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_login_checking_password">Проверка данных…</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы неверно ввели PIN-код %d раз(а).
-Повторите попытку через %d с."</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы неверно ввели пароль %d раз(а).
-Повторите попытку через %d с."</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Вы неверно ввели графический ключ %d раз(а).
-Повторите попытку через %d с."</string>
-    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Вы неверно ввели код %d раз(а). После %d неверных попыток настройки устройства будут сброшены и все данные удалены.</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"Вы неверно ввели PIN-код %1$d раз(а).
+
+ Повторите попытку через %2$d с."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">"Вы неверно ввели пароль %1$d раз(а).
+
+ Повторите попытку через %2$d с."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">"Вы неверно ввели графический ключ %1$d раз(а).
+
+ Повторите попытку через %2$d с."</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Вы неверно ввели код %1$d раз(а). После %2$d неверных попыток настройки устройства будут сброшены и все данные удалены.</string>
     <string name="kg_failed_attempts_now_wiping">Вы неверно ввели код %d раз(а). Настройки устройства будут сброшены.</string>
-    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Вы неверно ввели графический ключ %d раз(а). После %d неверных попыток, вы сможете разблокировать устройство с помощью аккаунта электронной почты Google.
-После %d неудачных попыток для разблокировки телефона потребуется аккаунт эл. почты.
- Повторите попытку через %d с."</string>
+    <string name="kg_failed_attempts_almost_at_login">"Вы неверно ввели графический ключ %1$d раз(а). После %2$d неверных попыток для разблокировки телефона потребуется аккаунт эл. почты.
+
+ Повторите попытку через %3$d с.
     <string name="kg_text_message_separator">" — "</string>
     <string name="kg_reordering_delete_drop_target_text">Удалить</string>
     <string name="safe_media_volume_warning">"Установить громкость выше рекомендуемого уровня?
 
 Воздействие громкого звука в течение долгого времени может привести к повреждению слуха."</string>
-    <string name="continue_to_enable_accessibility">Чтобы включить специальные возможности, удерживайте пальцы на экране.</string>
+    <string name="continue_to_enable_accessibility">Чтобы включить специальные возможности, удерживайте двумя пальцами на экране.</string>
     <string name="accessibility_enabled">Спец. возможности включены</string>
     <string name="enable_accessibility_canceled">Спец. возможности отключены</string>
     <string name="user_switched">Текущий пользователь %1$s</string>
@@ -1335,8 +1346,8 @@
     <string name="audit_safemode_notification">Выполните сброс до заводских настроек, чтобы использовать данное устройство без огграничений</string>
     <string name="audit_safemode_notification_details">Нажмите, чтобы узнать больше.</string>
     <string name="suspended_widget_accessibility">Виджет %1$s отключен</string>
+    <string name="China_Mobile">China Mobile</string>
     <string name="hour_ampm" formatted="false">%-l %P</string>
     <string name="hour_cap_ampm" formatted="false">%-l %p</string>
-    <string name="list_delimeter">,</string>
     <string name="configure_input_methods">Настроить способ ввода</string>
 </resources>
