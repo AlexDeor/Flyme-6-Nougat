@@ -1209,7 +1209,7 @@
     <string name="kg_failed_attempts_now_wiping">Вы неверно ввели код %d раз(а). Настройки устройства будут сброшены.</string>
     <string name="kg_failed_attempts_almost_at_login">"Вы неверно ввели графический ключ %1$d раз(а). После %2$d неверных попыток для разблокировки телефона потребуется аккаунт эл. почты.
 
- Повторите попытку через %3$d с.
+ Повторите попытку через %3$d с.</string>
     <string name="kg_text_message_separator">" — "</string>
     <string name="kg_reordering_delete_drop_target_text">Удалить</string>
     <string name="safe_media_volume_warning">"Установить громкость выше рекомендуемого уровня?
