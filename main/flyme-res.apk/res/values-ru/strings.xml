@@ -153,11 +153,14 @@
     <string name="permdesc_forceKillProcess">Приложение сможет завершать некоторые процессы принудительно</string>
     <string name="hour">ч.</string>
     <string name="mz_fp_verify_failed">Отпечатки не совпадают</string>
+    <string name="mz_wifi_notify_button">Пропустить</string>
+    <string name="mz_wifi_available_sign_in">Невозможно получить доступ к сети. Пожалуйста, выполните вход</string>
     <string name="do_not_disturb_notification_title">Режим «Не беспокоить» включён</string>
     <string name="do_not_disturb_notification_content">Вызовы и сообщения будут заглушены</string>
     <string name="do_not_disturb_notification_priority_only_content">Разрешить только приоритетным</string>
     <string name="do_not_disturb_notification_alarm_only_content">Разрешить только оповещения</string>
     <string name="do_not_disturb_notification_none_content">Не разрешать</string>
+    <string name="do_not_disturb_mode_title">Режим \"Не беспокоить\"</string>
     <string name="configure_input_methods">Выберите метод ввода</string>
     <string name="requestNotSupported">Эта операция не поддерживается</string>
     <string name="barringPWBlocked">Пароль блокировки запрета вызовов</string>
@@ -179,6 +182,7 @@
     <string name="launcher_choose_hint">Настроить/Установить лаунчер по умолчанию</string>
     <string name="chooseDefLauncher">Выбрать лаунчер по умолчанию</string>
     <string name="confirm_access_password_tip">Введите пароль</string>
+    <string name="confirm_access_password_tip_for_lockscreen">Введите пароль блокировки экрана</string>
     <string name="confirm_password_error">Неверный пароль, повторите ввод</string>
     <string name="forget_pwd">Забыли пароль?</string>
     <string name="mz_fp_lockout">Повторите ввод отпечатка в течении %d сек.</string>
@@ -394,14 +398,6 @@
     <string name="four_g_enabled">Соединение 4G включено</string>
     <string name="unsupport_set_wallpaper_on_media_eval_system">Невозможно изменить обои на текущей версии системы. Обновите систему и повторите попытку.</string>
     <string name="children_mode_can_not_set_wallpaper">Невозможно изменить обои в детском режиме.</string>
-    <string name="global_action_mp3_mode">Только музыка</string>
-    <string name="mp3_mode_title">Режим «Только музыка»</string>
-    <string name="global_action_no_mp3_mode">"Невозможно включить режим «Только музыка»"</string>
-    <string name="mp3_mode_content">Включение этого режима отключит все службы на основном экране, включая телефонные вызовы и сообщения. Музыкальный проигрыватель будет работать на дополнительном дисплее, чтобы обеспечить захватывающий музыкальный опыт.</string>
-    <string name="mp3_mode_content_no_mp3">"Убедитесь, что у вас установлена последняя версия приложения «Музыка» от Meizu."</string>
-    <string name="start_mp3_text">Начать</string>
-    <string name="start_mp3_text_no_mp3">OK</string>
-    <string name="cancel_mp3_text">Отмена</string>
     <string name="calendar_day_of_week">EEE</string>
     <string name="download_pending">Начало загрузки</string>
     <string name="mz_date_time_month">м.</string>
