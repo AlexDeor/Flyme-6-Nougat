@@ -25,6 +25,13 @@
     <string name="selectTextMode">Выделить текст</string>
     <string name="status_bar_notification_info_overflow">>999</string>
     <string name="fingerprint_icon_content_description">Иконка отпечатка пальца</string>
+    <string name="config_networkLocationProviderPackageName">com.google.android.gms</string>
+    <string name="config_fusedLocationProviderPackageName">com.android.location.fused</string>
+    <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
+    <string name="config_geocoderProviderPackageName">com.google.android.gms</string>
+    <string name="config_geofenceProviderPackageName">@null</string>
+    <string name="config_activityRecognitionHardwarePackageName">@null</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
     <string name="month_day_year" formatted="false">%-e %B %Y г.</string>
     <string name="time_of_day" formatted="false">%-k:%M:%S</string>
     <string name="date_and_time" formatted="false">%b %-e, %Y, %-l:%M:%S %p</string>
@@ -1465,5 +1472,6 @@
     <string name="China_Mobile">China Mobile</string>
     <string name="hour_ampm" formatted="false">%P %-l</string>
     <string name="hour_cap_ampm" formatted="false">%p %-l</string>
+    <string name="list_delimeter">,</string>
     <string name="configure_input_methods">Настроить способ ввода</string>
 </resources>
