@@ -50,7 +50,7 @@
     <string name="check">Проверить</string>
     <string name="check_and_recover">Просмотр и восстановление</string>
     <string name="check_sdk_app_uninstalled">Связанное приложение было удалено. Возвращение на главную страницу.</string>
-    <string name="clickToLoginEmail">Синхронизация электронной почты завершена, нажмите для входа</string>
+    <string name="clickToLoginEmail">Почта синхронизирована, нажмите для входа</string>
     <string name="cloudAllData">После включения будет синхронизировано записей: %s</string>
     <string name="cloudContactAllData">После включения будет синхронизировано контактов: %s</string>
     <string name="cloudContactNUDData" formatted="false">%s добавлено, %s удалено, %s изменено в облаке. Данные будут синхронизированы с телефоном.</string>
@@ -142,14 +142,14 @@
     <string name="mc_collected_message">Статус избранного</string>
     <string name="mc_custom_date_time_gregorian">Григорианский</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
-    <string name="mc_date_time_day">д</string>
-    <string name="mc_date_time_hour">ч</string>
-    <string name="mc_date_time_min">м</string>
-    <string name="mc_date_time_month">м</string>
-    <string name="mc_date_time_sec">с</string>
-    <string name="mc_date_time_set">Установить</string>
-    <string name="mc_date_time_year">г</string>
-    <string name="mc_description_target_answer">Ответ</string>
+    <string name="mc_date_time_day">д.</string>
+    <string name="mc_date_time_hour">ч.</string>
+    <string name="mc_date_time_min">м.</string>
+    <string name="mc_date_time_month">м.</string>
+    <string name="mc_date_time_sec">с.</string>
+    <string name="mc_date_time_set">Настроить</string>
+    <string name="mc_date_time_year">г.</string>
+    <string name="mc_description_target_answer">Принять</string>
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_disable">Отключить</string>
     <string name="mc_downloading_patch_prefix">Скачать файл обновления</string>
@@ -158,7 +158,7 @@
     <string name="mc_every_day">Каждый день</string>
     <string name="mc_friday">ПТ</string>
     <string name="mc_go_Refreshing">Обновить</string>
-    <string name="mc_hour">ч</string>
+    <string name="mc_hour">ч.</string>
     <string name="mc_is_Refreshing">Обновление</string>
     <string name="mc_last_refresh">последнее обновление</string>
     <string name="mc_last_refresh_hour">ч назад</string>
@@ -167,7 +167,7 @@
     <string name="mc_last_refresh_second">с назад</string>
     <string name="mc_loading_animation_alert">Сохранение изображения</string>
     <string name="mc_loading_view_text">Загрузка</string>
-    <string name="mc_minute">м</string>
+    <string name="mc_minute">м.</string>
     <string name="mc_monday">ПН</string>
     <string name="mc_never">Единожды</string>
     <string name="mc_permission_apply">Запрос разрешения</string>
@@ -209,7 +209,7 @@
     <string name="mc_search_icon">Поиск</string>
     <string name="mc_search_icon_input_clear">Очистить</string>
     <string name="mc_search_text">Поиск</string>
-    <string name="mc_second">с</string>
+    <string name="mc_second">с.</string>
     <string name="mc_sunday">ВС</string>
     <string name="mc_thursday">ЧТ</string>
     <string name="mc_time_picker_dialog_title">Расписание</string>
@@ -221,7 +221,7 @@
     <string name="mc_voice_icon">Голосовой поиск</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
     <string name="message">Сообщения</string>
     <string name="mod_count_text">Обновление %d контакт(ов)</string>
@@ -230,16 +230,16 @@
     <string name="multiDevicesSyncTips">С аккаунтом %s синхронизировано другое устройство.</string>
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
-    <string name="mz_action_bar_multi_choice_select_all_cancel">Нет</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_select_all_cancel">Отмена</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="mz_allow">ОК</string>
     <string name="mz_alway_allow">Разрешать всегда</string>
-    <string name="mz_date_time_day">д</string>
-    <string name="mz_date_time_hour">ч</string>
-    <string name="mz_date_time_min">м</string>
-    <string name="mz_date_time_month">м</string>
-    <string name="mz_date_time_sec">с</string>
-    <string name="mz_date_time_year">г</string>
+    <string name="mz_date_time_day">.д</string>
+    <string name="mz_date_time_hour">ч.</string>
+    <string name="mz_date_time_min">м.</string>
+    <string name="mz_date_time_month">м.</string>
+    <string name="mz_date_time_sec">с.</string>
+    <string name="mz_date_time_year">г.</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_permission_apply">Запрос разрешения</string>
     <string name="mz_permission_message_content">%1$s запрашивает %3$d разрешен. на %2$s</string>
@@ -325,10 +325,11 @@
     <string name="oauthError">Авторизация не удалась</string>
     <string name="obtain_contacts_error_msg">Не удалось выполнить запрос. Пожалуйста, попробуйте ещё раз.</string>
     <string name="ok">ОК</string>
-    <string name="only_wlan_sync">Синхронизация только по WLAN</string>
+    <string name="only_wlan_sync">Синхронизация только по Wi-Fi</string>
     <string name="open_auto_sync_tip_text">Включение автосинхронизации позволяет вам сэкономить время</string>
+    <string name="operate_busy">Слишком частая синхронизация. Повторите попытку позже.</string>
     <string name="other">Другое</string>
-    <string name="otherSummary">"WLAN, VPN, эл. почта, быстрые ответы
+    <string name="otherSummary">"Wi-Fi, VPN, эл. почта, быстрые ответы
 %s"</string>
     <string name="other_number">Другие номера</string>
     <string name="overDeleteLimitTips">Аккаунт %s удаляет слишком много данных. Подтвердите эту операцию.</string>
@@ -459,10 +460,10 @@
     <string name="wait_tip">Пожалуйста, подождите</string>
     <string name="web_label">Веб</string>
     <string name="wifi">WLAN</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
-    <string name="mc_pattern_hour_before">, часов назад</string>
-    <string name="mc_pattern_minute_before">, минут назад</string>
+    <string name="mc_pattern_a_hour_before">1 ч. назад</string>
+    <string name="mc_pattern_a_minute_before">1 м. назад</string>
+    <string name="mc_pattern_hour_before">, ч. назад</string>
+    <string name="mc_pattern_minute_before">, м. назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
     <string name="mc_pattern_month_day_hour_minute" formatted="false">%-e/%-m %H:%M</string>
     <string name="mc_pattern_month_day_hour_minute_12" formatted="false">%-e/%-m %I:%M %p</string>

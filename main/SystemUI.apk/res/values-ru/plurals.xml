@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="mz_fp_management_count">
+        <item quantity="other">Сохранено отпечатков: %1$d</item>
+        <item quantity="one">Сохранено отпечатков: %1$d</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Ещё %s уведомлен. в группе</item>
+        <item quantity="one">Ещё %s уведомление в группе</item>
+    </plurals>
     <plurals name="status_bar_accessibility_recent_apps">
         <item quantity="other">Экранов в обзоре: %d</item>
         <item quantity="one">В обзоре 1 экран</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
         <item quantity="other">Неверный PIN-код. Осталось попыток: %d.</item>
-        <item quantity="one">Неверный PIN-код. Осталось попыток: %d. После этого SIM-карта будет заблокирована и вам придётся обратиться к оператору связи.</item>
+        <item quantity="one">Неверный PIN-код. Осталось попыток: %d. После этого вам придётся обратиться к оператору для разблокировки устройства.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
         <item quantity="other">Неверный PUK-код. Осталось попыток: %d. После этого SIM-карта будет заблокирована навсегда.</item>
@@ -23,5 +31,9 @@
     <plurals name="kg_prompt_reason_time_password">
         <item quantity="other">"Устройство не было разблокировано в течении %d ч. Подтвердите пароль."</item>
         <item quantity="one">"Устройство не было разблокировано в течении %d ч. Подтвердите пароль."</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">У вас осталось еще %1$d попыт. ввода PIN-кода SIM%2$d</item>
+        <item quantity="one">"У вас осталось еще %1$d попытка ввода PIN-кода SIM%2$d. После этого вам придётся обратиться к оператору для разблокировки устройства.</item>
     </plurals>
 </resources>
