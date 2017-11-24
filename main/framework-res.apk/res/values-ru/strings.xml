@@ -29,7 +29,7 @@
     <string name="time_of_day" formatted="false">%-k:%M:%S</string>
     <string name="date_and_time" formatted="false">%-k:%M:%S, %d.%m.%Y</string>
     <string name="date_time">%2$s, %1$s</string>
-    <string name="icu_abbrev_wday_month_day_no_year">eeedMMM</string>
+    <string name="icu_abbrev_wday_month_day_no_year">ccccdMMM</string>
     <string name="byteShort">Б</string>
     <string name="kilobyteShort">КБ</string>
     <string name="megabyteShort">МБ</string>
