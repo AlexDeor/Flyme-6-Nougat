@@ -646,7 +646,7 @@
     <string name="fake_notification_tips">Новых уведомлений: %1$d</string>
     <string name="qs_header_date_main_pattern12">%s EEE a</string>
     <string name="qs_header_date_main_pattern24">%s EEE</string>
-    <string name="qs_header_date_local_pattern">dd MMM</string>
+    <string name="qs_header_date_local_pattern">cccc, dd MMMM</string>
     <string name="nxp_memory_clean">Очищено %1$d МБ</string>
     <string name="nxp_memory_clean_nothing">Память очищена</string>
     <string name="notification_reply">Ответить</string>
@@ -664,7 +664,7 @@
     <string name="screenshot_share_lable">Передать</string>
     <string name="screenshot_share_delete_after_share">Удалить после отправки</string>
     <string name="hello_for_vice_screen">Привет!</string>
-    <string name="system_ui_date_pattern">d/M, EEE</string>
+    <string name="system_ui_date_pattern">d/M, cccc</string>
     <string name="free_wifi_label">Сертифицировано</string>
     <string name="dialog_close">Закрыть</string>
     <string name="keyguard_demo_lock_hint">Приложите палец к кнопке \"Домой\" для разблокировки</string>
@@ -704,9 +704,6 @@
     <string name="extmedia_format_button_format">Форматировать</string>
     <string name="temperature_warning">зарядка приостановлена из-за нагрева устройства.</string>
     <string name="temperature_tips">Пожалуйста, проверьте подключение ЗУ к устройству и обратитесь в СЦ в случае необходимости</string>
-    <string name="lock_month_day">dMMMM</string>
-    <string name="lock_week">d MMMM yyyy (cccc)</string>
-    <string name="mz_date_format">E, d MMMM</string>
     <string name="lock_month">MMMM</string>
     <string name="lock_tips_dialing">Набор</string>
     <string name="calling">Вызов…</string>
@@ -1539,6 +1536,8 @@
     <string name="pip_onboarding_description">Позволяет смотреть одно видео в другом. Для управления нажмите и удерживайте клавишу <b>HOME</b>.</string>
     <string name="pip_onboarding_button">ОК</string>
     <string name="recents_tv_dismiss">Закрыть</string>
+    <string name="abbrev_wday_month_day_no_year">ccccdMMMM</string>
+    <string name="abbrev_wday_month_day_no_year_alarm">ccccdMMM</string>
     <string name="app_name">Блокировка экрана</string>
     <string name="keyguard_password_enter_pin_code">Введите PIN-код</string>
     <string name="keyguard_password_enter_puk_code">Введите PUK-код и новый PIN-код</string>
